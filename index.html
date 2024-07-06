@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <!-- displays site properly based on user's device -->
+
+      <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png" />
+
+      <title>Frontend Mentor | Age calculator app</title>
+
+      <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+      <link rel="stylesheet" href="app.css" />
+      <script defer src="./script.js"></script>
+   </head>
+   <body>
+      <main>
+         <div class="wrapper">
+            <div class="app">
+               <section class="app-header">
+                  <div class="app-header-item input--0">
+                     <label for="day">Day</label>
+                     <input type="text" placeholder="DD" id="day" required />
+                     <p class="error-msg hidden"></p>
+                  </div>
+                  <div class="app-header-item input--1">
+                     <label for="month">Month</label>
+                     <input type="text" placeholder="MM" id="month" required />
+                     <p class="error-msg hidden"></p>
+                  </div>
+                  <div class="app-header-item input--2">
+                     <label for="year">Year</label>
+                     <input type="text" placeholder="YYYY" required id="year" />
+                     <p class="error-msg hidden"></p>
+                  </div>
+
+                  <div class="btn">
+                     <img src="./assets/images/icon-arrow.svg" alt="arrow-down" />
+                  </div>
+               </section>
+               <section class="app-result">
+                  <div class="app-result-item"><span class="res--2">_ _</span> years</div>
+                  <div class="app-result-item"><span class="res--1">_ _</span> months</div>
+                  <div class="app-result-item"><span class="res--0">_ _</span> days</div>
+               </section>
+            </div>
+         </div>
+      </main>
+   </body>
+</html>
